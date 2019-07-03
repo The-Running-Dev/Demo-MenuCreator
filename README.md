@@ -64,5 +64,5 @@ The models and logic for storing the menu data and creating the menu.
 ### MenuCreator.Tests
 Work in progress...
 
-#### Technologies
+## Technologies
 * .NET Core 2.2 (https://dotnet.microsoft.com/)
