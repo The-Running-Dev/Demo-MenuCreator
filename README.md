@@ -1,6 +1,6 @@
 ## Menu Creator
 
-A Simple menu creator on top of .NET Core 2.2.
+A Simple menu creator on top of .NET Core 2.2. This application represents a coding exsersise I was given and expected to complete in 60 minutes.
 
 Run Online: https://dotnetfiddle.net/eF3i6x
 
@@ -8,13 +8,13 @@ Run Online: https://dotnetfiddle.net/eF3i6x
 
 You must create all of the classes you think are required to complete the below tasks. Comment and style your code as you would normally.
 
-Create a Hierarchical Menu
+#### Create a Hierarchical Menu
 
-Create a Console Application which creates a hierarchical data structure containing a number of objects to represent a menu tree. It should be able to support creating a menu N levels deep.
+Create a console application which creates a hierarchical data structure containing a number of objects to represent a menu tree. It should be able to support creating a menu N levels deep.
 
 Use the example menu below to populate your data structure:
 
--Administration
+- Administration
 	- User Admin
 		- Create User
 		- Edit User
@@ -34,9 +34,9 @@ Use the example menu below to populate your data structure:
 
 You do not need to implement the actual menu functionality (e.g. you do not need to write code to execute a menu item or like creating a user).
 
-Display a Hierarchical Menu
-Using the data structure you created in Part One, output the example menu into the console window formatted to correctly show the menu hierarchy.
+#### Display a Hierarchical Menu
 
+Using the data structure you created, output the example menu into the console window formatted to correctly show the menu hierarchy.
 
 ## Running Locally
 
@@ -47,19 +47,22 @@ In PowerShell or Bash
 
 1. Clone the repository:
 
-    ```git clone https://github.com/The-Running-Dev/```
+    ```git clone https://github.com/The-Running-Dev/Demo-MenuCreator```
 
 2. Run the application:
 
-    ```dotnet run ```
+    ```dotnet run```
 
 ## Project Structure and Rational
 
-### PatientViewer.Data
-Encapsulates the data models, interfaces and extensions used within ```PatientViewer.Repository```, ```PatientViewer.Service```, ```PatientViewer.Tests``` and ```PatientViewer.Web```. Here you will find the ```Patient``` model.
+### MenuCreator
+The console application that creates the menu.
 
-### PatientViewer.Tests
-Encapsulates all tests for ```PatientViewer.Data```, ```PatientViewer.Repository```, ```PatientViewer.Service``` and ```PatientViewer.Web```. Implements test for the ```StringExtensions```, ```PatientRepository```, ```RepositoryCache```, ```PatientService```, and the ```HomeController```, and ```PatientController```. ```NUnit``` is used as the testing framwork, with the help of ```Moq``` for mocking. Test setup is abstracted in the ```TestsBase``` class that acts as the setup for all tests.
+### MenuCreator.Library
+The models and logic for storing the menu data and creating the menu.
+
+### MenuCreator.Tests
+Work in progress...
 
 #### Technologies
-* .NET Core 2.2 (https://dotnet.microsoft.com/) for the MVC/WebAPI application and supprting code
+* .NET Core 2.2 (https://dotnet.microsoft.com/)
