@@ -1,6 +1,6 @@
 ## Menu Creator
 
-A Simple menu creator on top of .NET Core 2.2. This application represents a coding exsersise I was given and expected to complete in 60 minutes.
+A Simple menu creator on top of .NET Core 2.2. This application represents a coding exercise I was given and expected to complete in 60 minutes.
 
 Run Online: https://dotnetfiddle.net/eF3i6x
 

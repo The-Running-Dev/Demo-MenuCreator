@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -16,7 +15,6 @@ namespace MenuCreator.Tests
         {
             var menuText = "";
             var assembly = Assembly.GetExecutingAssembly();
-            // var resourceName = "MyCompany.MyProduct.MyFile.txt";
             var resourceName = assembly.GetManifestResourceNames()
                 .Single(str => str.EndsWith("MenuData-1.txt", StringComparison.CurrentCulture));
 

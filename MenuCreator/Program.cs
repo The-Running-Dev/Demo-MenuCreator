@@ -36,7 +36,6 @@ namespace MenuCreator
             mainMenu.Add(reportsMenu);
 
             Console.WriteLine(mainMenu.Generate(Environment.NewLine));
-            Console.ReadLine();
         }
     }
 }
